@@ -4,22 +4,22 @@
 # created by Finbarrs Oketunji at 2020/2/10
 #
 
-echo "=============================="
-echo "====removing useless files===="
-echo "=============================="
+# echo "=============================="
+# echo "====removing useless files===="
+# echo "=============================="
 
-rm -rf .git
-rm *~
-rm *.log
-rm *.aux
-rm *.out
+# rm -rf .git
+# rm *~
+# rm *.log
+# rm *.aux
+# rm *.out
 
-echo "================================"
-echo "==reinitialize git repository==="
-echo "================================"
+# echo "================================"
+# echo "==reinitialize git repository==="
+# echo "================================"
 
-git init
-git remote add origin git@github.com:0xnu/dfs-telegram-bot.git
+# git init
+# git remote add origin git@github.com:0xnu/dfs-telegram-bot.git
 
 echo "=============================="
 echo "======committing changes======"
