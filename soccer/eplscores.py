@@ -18,7 +18,7 @@ soup = BeautifulSoup(page, "lxml")
 
 games = soup.findAll("div", {"class":"row-gray"})
 
-width = 35
+width = 28
 
 def EPLScores():
 
