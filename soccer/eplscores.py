@@ -32,6 +32,7 @@ def EPLScores():
     g = g.replace('Leicester City', 'Leicester')
     g = g.replace('Tottenham Hotspur', 'Tottenham')
     g = g.replace('United', 'Utd')
+    g = g.replace('Manchester', 'Man.')
     scores.append(g)
 
   # output
